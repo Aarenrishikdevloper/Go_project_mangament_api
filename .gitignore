@@ -1,0 +1,87 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+go.mod
+go.sum
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Debug files
+debug
+*.log
+
+# Build files
+build/
+
+# macOS
+.DS_Store
+
+# MongoDB related
+/data/db/
+*.ns
+*.0
+*.1
+*.2
+*.3
+*.4
+*.5
+*.6
+*.7
+*.8
+*.9
+mongod.lock
+storage.bson
+
+# Binary output
+*.bin
+
+# Profiling output
+*.prof
+*.trace
+
+# JetBrains IDE
+*.iml
+
+# VS Code
+.settings/
+.history/
+
+# Local development files
+local*.yaml
+local*.json
+
+# Editor directories and files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
